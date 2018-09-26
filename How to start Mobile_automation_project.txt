@@ -22,3 +22,9 @@ Steps:
 9.Change the compabilities in the AppiumInit.java and match with the appium compabilities.
 10. adb press enter
 11. adb devices press enter
+
+12. Keep your mobile device on Developer mode/option
+    to set on developer option got to >setting>about phone>build number[tap for seven time]
+    come back to tha main menu and check that developer option/mode is available or not.
+13. Keep display on for long time like 30 minutes. means mobile doesn't get off and lock the screen while we run  the script.
+14. Change the Keyboard as per need. from appium keyboard to Gkeyboard
