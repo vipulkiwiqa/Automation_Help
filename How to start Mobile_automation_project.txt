@@ -1,0 +1,22 @@
+Required softwares
+1. Android sdk
+2. ADB driver
+3. Appium
+4. UniversalAdbDriverSetup[If required]  url:http://adbdriver.com/downloads/
+
+Steps:
+1.Keep Android SDK ready for use
+2.Install Appium
+3.Set Environment Variable 
+   path= /buildtools/aapt.exe
+   path = /platformtools/adb.exe
+4.connect device.
+5.open command prompt
+   :adb press enter
+   :adb devices press enter
+6.Set General Capabilities
+  follow the following link. 
+  https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/caps.md
+7.keep appium on "Automatic Server Mode" 
+8.set APK capability : https://www.appsapk.com/notepad/ or https://apkpure.com/[Example]
+9.Change the compabilities in the AppiumInit.java and match with the appium compabilities.

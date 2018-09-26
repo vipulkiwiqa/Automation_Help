@@ -1,0 +1,27 @@
+Step 1: go to command prompt
+step 2: java -jar jenkins.war press enter[need to go to the rood directory of jenkins war files]
+step 3: goto localhost:8080
+step 4: Select new item
+step 5: enter the name
+step 6: choose the freestyle project
+
+In General tab you need to set 
+Select the "User custom workspace" if we use local files
+step 1: click on advance
+step 2: click on "Use custom workspace"
+step 3: Enter Directory of the workspace.
+
+if you use the github project then choose the .jenkins folder path from c drive
+
+step 7: click ok button
+step 8: go to source code management 
+step 9: select Git option
+step 10:enter repository url
+step 11:choose the credentials
+step 12:Click on add build step [Build]
+step 13:click on invoke top-level maven targets
+step 14: Maven version = maven
+step 15: Goal = test
+step 16: POM = pom.xml
+step 17: click on apply
+step 18: click on save

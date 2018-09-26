@@ -1,0 +1,31 @@
+1. Open Jenkins using the following URL: http://localhost:8080/ on any browser.
+2. Click the ‘Manage Jenkins’ menu option displayed at the right side of the screen. You will be redirected to the ‘Manage Jenkins’ page, where you need to select the ‘Manage Plugin’ option.
+3. Click the ‘Available’ tab present at the top of the ‘Manage Plugin’ page.
+4. Start typing ‘Notification’ in the ‘Filter’ field displayed at the top-right side of the ‘Manage Plugin’ page. Click the checkbox next to the ‘Email-ext plugin’ option. Click the ‘Install without restart’ button.
+5. Now, click the checkbox next to the ‘Email-ext Template Plugin’ option. Click the ‘Install without restart’ button.
+6. Go to the Jenkins home page and click the ‘Manage Jenkins’ menu option. Then, select the ‘Configure System’ option.
+7. Enter the SMTP server name under ‘Email Notification’. Click the ‘Advanced’ button and then click the checkbox next to the ‘Use SMTP Authentication’ option. Now, set the following fields.
+
+   SMTP server name : smtp.gmail.com
+   User name: your email id you want to send mail
+   Password: your password
+   Use SSL : Checked
+   SMTP Port: 465
+8. Check the email notification functionality by clicking the checkbox next to the ‘Test configuration by sending Test e-mail recipient’ option. Enter a valid email id and click the ‘Test configuration’ button to check whether the email id is valid or not.
+9. Go to the home page and click on a created job, like Homes. Then, click the ‘Configure’ option.
+10. Click the ‘Add post-build action’ drop-down.
+11. Select the ‘E-mail Notification’ value.
+12. Enter the recipient email id in the ‘E-mail Notification’ box and select the checkbox next to the ‘Send e-mail for every unstable build’ option.
+13. Click the ‘Add post-build action’ drop-down and select the ‘Editable Email Notification’ value.
+14. Fill the ‘Editable Email Notification’ fields.
+	* Project Recipient List : Your email id
+15. Click the ‘Advance Settings…’ button in the ‘Editable Email Notification’ box.
+
+16. Click the ‘Add Trigger’ drop-down and select the ‘Always’ option.
+
+17. Click the ‘Save’ button.
+
+18. Go to the home page and click on the job, like Homes.
+
+19. Click the ‘Build now’ link and check the email id after the job execution.
+

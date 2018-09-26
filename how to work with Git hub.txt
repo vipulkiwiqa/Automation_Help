@@ -1,0 +1,24 @@
+Step 1 : Right click on Project
+Step 2 : Go To team
+Step 3 : Click on Share Project
+Step 4 : Click on create Repositiory
+Step 5 : Go to window
+Step 6 : Go to show view
+Step 7 : Go to others
+Step 8 : Select Git 
+Step 9 : Git Repositories
+Step 10: click on OK
+Step 11: Right click on Project
+Step 12: Go To team
+Step 13: Commit
+Step 14: Right click on Remotes
+Step 15: create remote
+Step 16: Enter URL or repository if not already selected
+Step 17: User name [git hub]
+step 18: Password[git hub password]
+step 19: Click on advance
+step 20: Select the source ref
+step 21: Click on Add Spec
+step 22: click on force update check box
+step 23: click on finish
+step 24: click on save and push
