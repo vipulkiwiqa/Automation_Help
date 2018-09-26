@@ -20,3 +20,5 @@ Steps:
 7.keep appium on "Automatic Server Mode" 
 8.set APK capability : https://www.appsapk.com/notepad/ or https://apkpure.com/[Example]
 9.Change the compabilities in the AppiumInit.java and match with the appium compabilities.
+10. adb press enter
+11. adb devices press enter
