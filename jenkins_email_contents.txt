@@ -1,0 +1,35 @@
+Hello Team,<br> <br>
+
+Please find the Automation Build Analysis report: 
+
+<b>Build Summary:</b>
+<br>
+<br>
+${FILE,path="E:/Globus_Medical/Globus_Medical_Workspace/globus/test-output/CustomReporterEmailBuildSummary.html"}
+<br><br><br><br><br> <br><br><br><br><br>
+
+<b>Failed Test Case Analysis Report :</b>
+ <br><br>
+${FILE,path="E:/Globus_Medical/Globus_Medical_Workspace/globus/test-output/CustomReporterforEmail.html"}
+<br><br>
+
+Regards,
+<br>
+KiwiQA Automation Team.
+<br><br>
+
+===========================================================================
+Hello Team,<br> <br>
+
+Please find the Automation Build Analysis report: 
+
+<b>Build Summary:</b>
+<br>
+<br>
+${FILE,path="E:/Globus_Medical/Globus_Medical_Workspace/globus/test-output/CustomReporterEmailBuildSummary.html"}
+<br><br><br><br><br> <br><br><br><br><br>
+
+Regards,
+<br>
+KiwiQA Automation Team.
+<br><br>
